@@ -20,7 +20,7 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 1. Describe how HTTP works?
 
    ```
-   Please write your answer here.
+   Hypertext Transfer Protocol (HTTP) is a resource fetching protocol that gathers all the different elements, such as images, texts, video, scripts etc. Usually, the client via web browser will initiate the fetch from the different element servers. The information communicated from the client is called a request and the retrieval by the server is called a response.
    ```
 
 2. What are the required information for a HTTP Request ot be sent?
@@ -28,18 +28,18 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
    ```
    Examples:
    1. URL - the address of the information to be requested
-   2. // Please write your answer here.
-   3. // Please write your answer here.
-   4. // Please write your answer here.
+   2. HTTP Method - describes the actions to be performed
+   3. Headers - Headers provide metadata about the request
+   4. Body - Represents the main content of the document to be transmitted, such as usernames, or user messages, passwords, etc.
    ```
 
 3. Describe the expected actions to be performed by the following HTTP Verbs:
 
    ```
-   POST: // Write your answer here
-   GET: // Write your answer here
-   PUT: // Write your answer here
-   DELETE: // Write your answer here
+   POST: - Sends data to the server that typically sends data from a form element in HTML, inputted by the user.
+   GET: - Get requests a the data to be received and should only be used to request data.
+   PUT: - Replaces all data of the target resource with the request payload.
+   DELETE: - Removes the specified resource.
    ```
 
 ---
